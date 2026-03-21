@@ -12,13 +12,29 @@
 
   <ItemGroup>
 
-    <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.40" />
+    <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.50" />
 
-    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.40" />
-    <PackageReference Include="Microsoft.Maui.Controls.Maps" Version="9.0.40" />
+    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="10.0.50" />
+    <PackageReference Include="Microsoft.Maui.Controls.Maps" Version="10.0.50" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\ClientApp\ClientApp.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.Testing.Extensions.CodeCoverage" Version="18.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.Testing.Extensions.TrxReport" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="MSTest.TestAdapter" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="MSTest.TestFramework" Version="4.1.0" />
   </ItemGroup>
 </Project>
